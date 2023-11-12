@@ -1,0 +1,47 @@
+---
+layout: 'base.njk'
+permalink: /
+linkTitle: Home
+title: 'Sharply'
+tags: 'navigation'
+---
+<section class="home-container">
+  <article class="home article-preview">
+  {% if collections.post[0] %}
+    <h1>{{ collections.post[0].data.title }}</h1>
+    <!-- <p>{{ post.templateContent }}</p> -->
+    <a href="{{ collections.post[0].url }}">Read more</a>
+  {% else %}
+    <p>No posts available.</p>
+  {% endif %}
+  </article>
+  <aside class="home subscription">
+    <section class="email-block">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dicta. Modi omnis fuga cum accusamus at, consequuntur, nostrum esse obcaecati optio iure eveniet officiis dicta sunt? Id facilis numquam modi.</p>
+      <button>Subscribe</button>
+    </section>
+  </aside>
+  <section class="category-exploration">
+    <h1>Explore</h1>
+    <ul class="container gallery">
+      <li><a>Courses</a></li>
+      <li><a>Courses</a></li>
+      <li><a>Courses</a></li>
+      <li><a>Courses</a></li>
+      <li><a>Courses</a></li>
+      <li><a>Courses</a></li>
+      <li><a>Courses</a></li>
+      <li><a>Courses</a></li>
+    </ul>
+  </section>
+  <section class="posts">
+    <h1>New Articles</h1>
+    <ul>
+      {% for post in collections.post %}
+      <li>
+        <a href="{{ post.url}}">{{ post.data.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</section>
