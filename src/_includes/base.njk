@@ -9,6 +9,7 @@
   <body>
     {% include "_header.njk" %}
     <main>
+      
       {% block content %} {{ content | safe }} {% endblock %}
     </main>
     {% include "_footer.njk" %}
