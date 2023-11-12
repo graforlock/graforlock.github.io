@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Store page</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" media="screen" />
+  </head>
+  <body>
+    <header>
+  <h1><a href="/">Sharply</a></h1>
+  <nav>
+    <ul>
+      
+      <li>
+        <a href="/about" >About</a>
+      </li>
+      
+      <li>
+        <a href="/blog" >Blog</a>
+      </li>
+      
+      <li>
+        <a href="/contact" >Contact</a>
+      </li>
+      
+      <li>
+        <a href="/" >Home</a>
+      </li>
+      
+      <li>
+        <a href="/store"  data-current="current item">Store</a>
+      </li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main>
+       
+<h1>Store</h1> 
+    </main>
+    
+    <footer>
+  <div class="container">
+    <p>© 2023 - Sharply</p>
+  </div>
+</footer>
+  </body>
+</html>
