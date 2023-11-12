@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Blog page</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" media="screen" />
   </head>
   <body>
     <header>
@@ -42,7 +42,7 @@
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, dolore harum, repellat in dolorum cum inventore, quae tempore cupiditate possimus sint reiciendis praesentium temporibus officiis minima sunt similique eaque repudiandae?</p> 
     </main>
-    
+
     <footer>
   <div class="container">
     <p>© 2023 - Sharply</p>

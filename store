@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Store page</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" media="screen" />
   </head>
   <body>
     <header>
@@ -40,7 +40,7 @@
        
 <h1>Store</h1> 
     </main>
-    
+
     <footer>
   <div class="container">
     <p>© 2023 - Sharply</p>
