@@ -4,7 +4,7 @@
     <ul>
       {% for item in collections.navigation %}
       <li>
-        <a href="/postagile{{ item.url}}" {% if item.url == page.url %} data-current="current item"{% endif %}>{{ item.data.linkTitle }}</a>
+        <a href="{{ item.url}}" {% if item.url == page.url %} data-current="current item"{% endif %}>{{ item.data.linkTitle }}</a>
       </li>
       {% endfor %}
     </ul>
