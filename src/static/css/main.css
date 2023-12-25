@@ -33,7 +33,7 @@ main {
 .email-block {
   background-color: var(--background);
   border-radius: 3px;
-  border:#ccc 1px solid;
+  border: var(--primary) 1px solid;
 }
 
 .email-block button {
@@ -147,7 +147,7 @@ main {
   background-color: var(--primary);
   background-color: var(--background);
   border-radius: 3px;
-  border:#ccc 1px solid;
+  border: var(--primary) 1px solid;
 }
 
 .gallery li a {
@@ -229,5 +229,5 @@ input, textarea {
   width: 100%;
   padding: 0.5em;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--primary);
 }
